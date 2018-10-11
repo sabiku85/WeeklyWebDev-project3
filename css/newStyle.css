@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 1600px;
+  min-width: 320px;
+  font-size: 10px;
+  --basicFont: 'Montserrat', sans-serif;
+  --headersFont: 'Roboto Slab', serif;
+  --basicFontColor: #777;
+  --headerFontColor: #222;
+  --darkBgFontColor: #fff;
+  --mainBgColor: #7bc575;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* classes for general use - text and position templates: */
+
+.container {
+  margin: 3vh auto;
+  width: 90%;
+  text-align: center;
+}
+
+.txt-format {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.centered {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
